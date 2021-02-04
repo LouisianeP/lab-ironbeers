@@ -1,0 +1,10 @@
+   <div class="relative items-center justify-center">
+      <!-- Header Text-->
+      <h1 class="text-center text-2xl font-bold p-4 bg-gray-800 text-gray-400">Beers</h1>
+      <!-- All Cards Container -->
+      <div class="lg:flex items-center container mx-auto my-auto">
+        {{#each beers}}
+            {{> beerpartial this}}
+        {{/each}}
+      </div>
+   </div>
