@@ -6,31 +6,6 @@ grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
 
-* {
-   padding: 0;
-}
-
-.image {
-    height: 50vh;
-    align-self: auto;
-}
-.conta {
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; 
-}
-
-.butt{
-    padding: 6px;
-    border-radius: 3px;
-    color: white;
-    margin: 5px;
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
